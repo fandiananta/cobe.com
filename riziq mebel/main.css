@@ -1,0 +1,124 @@
+/* dexktop version  */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-toggler {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .3s;
+}
+
+.navbar-toggler span {
+    width: 25px;
+    height: 4px;
+    background-color: #f09f05;
+    border-radius: 40px;
+}
+
+.navbar-toggler:hover {
+    transform: scale(0.9);
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+#menu a {
+    position: relative;
+}
+
+#menu a:hover,
+#menu a:active {
+    color: #f09f05;
+    font-weight: 500;
+}
+
+.jumbotron {
+    background-color: #faf7ee;
+}
+
+#tombol {
+    background-color: #f09f05;
+    color: white;
+}
+
+#tombol:hover {
+    background-color: #d68c02;
+}
+
+.display-4 {
+    font-weight: bold;
+    color: #d68c02;
+}
+
+.lead {
+    margin-top: 20px;
+    color: rgb(24, 24, 24);
+}
+
+
+/* animate */
+
+.gambar {
+    transform: translateX(900px);
+    transition: 1.4s;
+}
+
+.gambar.muncul {
+    transform: translateX(0);
+}
+
+.text {
+    transform: translateX(-900px);
+    transition: 1.4s;
+}
+
+.text.muncul {
+    transform: translateX(0);
+}
+
+#keranjang {
+    transition: .3S;
+}
+
+#keranjang:hover {
+    transform: scale(0.9);
+}
+
+
+/* akhir animate */
+
+.footer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: #386861;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.link {
+    margin-top: 60px;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+}

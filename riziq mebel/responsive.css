@@ -1,0 +1,70 @@
+@media (min-width: 992px) {
+    .collapse {
+        margin-top: 15px;
+    }
+    #menu {
+        width: 600px;
+        transform: translateX(60px);
+        font-family: 'Poppins', sans-serif;
+    }
+    #menu a::after {
+        content: "";
+        position: absolute;
+        background-color: #f09f05;
+        height: 3px;
+        width: 0;
+        left: 25%;
+        bottom: -10px;
+        transition: .3s;
+    }
+    #menu a:hover::after {
+        width: 50%;
+    }
+    .nav-link.aktif {
+        color: #f09f05;
+    }
+    #menu .nav-link {
+        margin: auto;
+    }
+    #cart a:hover {
+        transform: scale(0.9);
+    }
+    .jumbotron {
+        margin-top: 10px;
+        height: 100vh;
+        font-family: 'Poppins', sans-serif;
+    }
+    .display-4 {
+        font-size: 60px;
+    }
+    .card {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .display-4 {
+        font-size: 45px;
+    }
+    .lead {
+        font-size: 20px;
+    }
+    .card {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 20px;
+    }
+    .lead {
+        font-size: 10px;
+    }
+    #tombol {
+        font-size: 10px;
+    }
+    .card {
+        margin-top: 30px;
+    }
+}
